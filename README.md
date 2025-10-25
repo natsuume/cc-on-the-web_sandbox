@@ -5,7 +5,7 @@ TypeScriptで構築されたChrome拡張機能のテンプレートプロジェ�
 ## 機能
 
 - ✅ TypeScriptによる型安全な開発
-- ✅ Webpackによるビルド自動化
+- ✅ Viteによる高速なビルド
 - ✅ Manifest V3対応
 - ✅ ポップアップUI
 - ✅ オプション設定画面
@@ -32,7 +32,7 @@ TypeScriptで構築されたChrome拡張機能のテンプレートプロジェ�
 │   └── options.html
 ├── icons/                 # 拡張機能のアイコン（要追加）
 ├── manifest.json          # 拡張機能のマニフェストファイル
-├── webpack.config.js      # Webpack設定
+├── vite.config.ts         # Vite設定
 ├── tsconfig.json          # TypeScript設定
 └── package.json           # npm設定
 ```
@@ -89,7 +89,7 @@ npm run dev
 ## 技術スタック
 
 - TypeScript 5.4+
-- Webpack 5
+- Vite 5
 - Chrome Extension Manifest V3
 
 ## ライセンス
